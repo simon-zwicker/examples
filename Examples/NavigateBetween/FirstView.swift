@@ -28,5 +28,23 @@ struct FirstView: View {
                 SecondView(text: textInput)
             }
         }
+
+        // MARK: OLD NavigationView
+//        NavigationView {
+//            VStack {
+//                TextField("Test", text: $fieldInput)
+//                    .padding()
+//                    .border(.blue)
+//
+//                NavigationLink {
+//                    SecondView(text: fieldInput)
+//                } label: {
+//                    Text("Navigate to Second View")
+//                        .font(.title)
+//                }
+//
+//            }
+//            .padding()
+//        }
     }
 }
